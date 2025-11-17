@@ -90,7 +90,7 @@ Power BI 上でのフィルタ・連動操作を意識して、
 「エリア」「時間」「曜日」の軸を切り替えやすいリレーション設計にしています。
 
 > （図）  
-> [ER 図イメージ](images/ER図.png)
+> ![ER 図イメージ](images/ER図.png)
 
 ---
 
@@ -109,22 +109,29 @@ Power BI 上でのフィルタ・連動操作を意識して、
   - **時間帯 × 曜日 × エリア別のトレンドグラフ**
   - **選択条件に応じた KPI カード（乗車回数、平均運賃など）**
 
-> （例）  
-> [マンハッタン乗車エリアマップ](images/マンハッタン.png)
-> [平日増加エリアマップ](images/平日増加エリア.png)
-> [週末増加エリアマップ](images/週末増加エリア.png)
+> （例）
+> **マンハッタンエリアの乗車傾向**
+> ![マンハッタン乗車傾向](images/マンハッタン.png)
+>
+> 
+> **平日に増加するエリアの乗車傾向**
+> ![平日増加エリアマップ](images/平日増加エリア.png)
+>
+>
+> **週末に増加するエリアの乗車傾向**
+> ![週末増加エリアマップ](images/週末増加エリア.png)
 
 ### 可視化から得られた主な傾向（例）
 
 - 平日朝：住宅エリア → ビジネスエリアへの移動が多い
-- 平日夕方〜夜：ビジネスエリアから住宅エリアへの戻り需要が顕著
+- 平日夕方〜夜：ビジネスエリアから住宅エリアへの戻り需要を想定
 - 週末深夜：飲食店・ナイトスポット周辺で乗車が集中する
 
-これらの傾向を、後述のペルソナ設計や広告提案に利用しています。
+これらの傾向を、後述のペルソナ設計に利用しています。
 
 ---
 
-## 第5章 ペルソナと広告提案
+## 第5章 ペルソナと想定広告
 
 PPT では、分析結果に基づき **2つの代表的なペルソナ** を設定しています。  
 いずれも「エリア × 時間帯 × 曜日」の条件が、乗客像と結びつくケースです。
@@ -142,7 +149,7 @@ PPT では、分析結果に基づき **2つの代表的なペルソナ** を設
   - 所得水準が高く、時間価値も高い
   - 雨天や冬季はタクシー利用が増える想定
 
-images/通勤ユーザー.png
+!(images/通勤ユーザー.png)
 
 **想定する広告例**
 
@@ -170,7 +177,7 @@ images/通勤ユーザー.png
   - 可処分所得が高く、体験消費・自己投資への関心が強い
   - 都市部の移動にはタクシー＋シティバイクなどを併用
 
-images/週末ナイトユーザー.png
+!(images/週末ナイトユーザー.png)
 
 **想定する広告例**
 
@@ -225,3 +232,7 @@ images/週末ナイトユーザー.png
   - 言語：SQL
   - 可視化：Power BI
   - その他：Taxi Zone マスタ、Community District 情報等を用いたエリア分類
+
+- Tableauでの可視化[https://public.tableau.com/views/_17600769281410/1?:language=ja-JP&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+
+<div class='tableauPlaceholder' id='viz1763353550614' style='position: relative'><noscript><a href='#'><img alt='ニューヨーク・イエローキャブタクシーの乗車データ分析 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17600769281410&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_17600769281410&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17600769281410&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ja-JP' /><param name='filter' value='publish=yes' /></object></div>
