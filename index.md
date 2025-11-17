@@ -1,6 +1,12 @@
 # NYCタクシー分析  
 ## 乗車データから広告ターゲットの発見を目指す
 
+
+<p align="center">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQPKqQesAgeF-3Wv_1IwxSPu6ERNKpq9SuAoUnEWO5axIevPHZtu3Ds1PYNivX1eQ/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</p>
+
+
 本ページは、NYCタクシー乗車データを用いた分析プロジェクト  
 「NYCタクシー分析：乗車データから広告ターゲットの発見を目指す」の概要をまとめたものです。
 
